@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "off",
+    "dart.lineLength": 20000,
+    "dart.hotReloadOnSave": "all",
+    "dart.maxLogLineLength": 20000,
+    "html.format.wrapLineLength": 20000,
+    "git.inputValidationLength": 20000,
+    "git.inputValidationSubjectLength": 20000
+}
