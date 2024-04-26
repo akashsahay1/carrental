@@ -5,5 +5,6 @@
     "dart.maxLogLineLength": 20000,
     "html.format.wrapLineLength": 20000,
     "git.inputValidationLength": 20000,
-    "git.inputValidationSubjectLength": 20000
+    "git.inputValidationSubjectLength": 20000,
+    "explorer.compactFolders": false
 }
