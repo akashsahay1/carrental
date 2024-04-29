@@ -15,14 +15,9 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Shared Preferences',
+              'Home',
               style: TextStyle(color: Colors.black),
             ),
-            TextField(
-              style: TextStyle(
-                color: Colors.black,
-              ),
-            )
           ],
         ),
       ),

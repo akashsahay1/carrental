@@ -12,6 +12,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   shared_preferences: ^2.2.3
   flutter_onboarding_slider: ^1.0.11
+  font_awesome_flutter: ^10.7.0
 
 dev_dependencies:
   flutter_test:
@@ -33,6 +34,36 @@ icons_launcher:
 
 flutter:
   uses-material-design: true
+  fonts:
+  - family: KoHo
+    fonts:
+      - asset: assets/fonts/KoHo/KoHo-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/KoHo/KoHo-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/KoHo/KoHo-SemiBolditalic.ttf
+        weight: 600
+        style: italic    
+      - asset: assets/fonts/KoHo/KoHo-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/KoHo/KoHo-Bolditalic.ttf        
+        weight: 700
+        style: italic
+      - asset: assets/fonts/KoHo/KoHo-ExtraLight.ttf  
+        weight: 200
+      - asset: assets/fonts/KoHo/KoHo-ExtraLightitalic.ttf        
+        weight: 200
+        style: italic
+      - asset: assets/fonts/KoHo/KoHo-Italic.ttf
+        style: italic
+      - asset: assets/fonts/KoHo/KoHo-Lightitalic.ttf  
+        weight: 300
+        style: italic
+      - asset: assets/fonts/KoHo/KoHo-Medium.ttf  
+        weight: 500
+      - asset: assets/fonts/KoHo/KoHo-Mediumitalic.ttf  
+        weight: 500
+        style: italic
   assets:  
     - assets/icons/
-    - assets/images/
+    - assets/images/ 

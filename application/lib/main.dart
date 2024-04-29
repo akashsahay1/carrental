@@ -1,6 +1,7 @@
+import 'package:carrental/pages/signup.dart';
 import 'package:flutter/material.dart';
 import 'preferences_manager.dart';
-import './pages/home.dart';
+//import './pages/home.dart';
 import './pages/onboarding.dart';
 
 void main() async {
@@ -21,8 +22,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 255, 238, 0)),
         useMaterial3: true,
+        fontFamily: 'KoHo',
       ),
-      home: PreferencesManager.isFirstTime() ? const OnboardingScreen() : const HomePage(),
+      home: PreferencesManager.isFirstTime() ? const OnboardingScreen() : const Signup(),
     );
   }
 }
