@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:carrental/pages/login.dart';
 
 class Signup extends StatefulWidget {
   const Signup({super.key});
@@ -190,11 +191,11 @@ class _SignupState extends State<Signup> {
                       const SizedBox(
                         height: 15.0,
                       ),
-                      const Row(
+                      Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Text(
+                          const Text(
                             'Already have an account?',
                             style: TextStyle(
                               color: Color(0xff000000),
@@ -202,17 +203,22 @@ class _SignupState extends State<Signup> {
                               decoration: TextDecoration.none,
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 5.0,
                           ),
-                          Text(
-                            'Login',
-                            style: TextStyle(
-                              color: Color(0xff7540EE),
-                              fontSize: 16.0,
-                              decoration: TextDecoration.underline,
+                          GestureDetector(
+                            child: const Text(
+                              'Login',
+                              style: TextStyle(
+                                color: Color(0xff7540EE),
+                                fontSize: 16.0,
+                                decoration: TextDecoration.underline,
+                              ),
                             ),
-                          ),
+                            onTap: () {
+                              Navigator.push(context, MaterialPageRoute(builder:(context) => const Login(),),);
+                            },
+                          ), 
                         ],
                       )
                     ],
